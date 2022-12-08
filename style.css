@@ -9,7 +9,13 @@ html {
     background: #a29898;
 }
 body {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    max-width: 400px;
+    margin-top: 30px;
+    margin-inline: auto ;
+    padding: 5px;
     /*border: 4px solid blue;*/
 }
 
@@ -43,5 +49,12 @@ p {
 .lastResult {
     color: white;
     padding: 3px;
+}
+
+button {
+    align-self: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
 }
 

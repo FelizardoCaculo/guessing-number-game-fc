@@ -1,6 +1,9 @@
 //Adding variables to store datas
 
-let userName = prompt('Por favor, escreva o seu nome: ')
+let userName = prompt('Por favor, escreva o seu nome: ');
+while (userName === '') {
+    userName = prompt('Por favor, escreva o seu nome: ')
+}
 
 let randomNumber = Math.floor(Math.random() * 100) + 1;
 const guesses = document.querySelector('.guesses');
