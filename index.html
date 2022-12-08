@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
+    <title>Jogo Advinhe um número</title>
+</head>
+<body>
+    
+    <h1>Jogo: Adivinhe um número!</h1>
+    <p>
+        Selecionamos um número aleatório entre 1 e 100. Veja se consegueadivinhar em 10 tentativas ou menos. Nós lhe diremos se seu palpite está com valor alto ou baixo.
+    </p>
+    <div class="form">
+        <label for="guessField">Digite seu palpite: </label>
+        <input type="number" min="1" max="100" required id="guessField" class="guessField">
+        <input type="submit" value="Enviar Palpite" class="guessSubmit">
+    </div>
+
+    <div class="resultsField">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="low-or-high"></p>
+    </div>
+
+</body>
+</html>
