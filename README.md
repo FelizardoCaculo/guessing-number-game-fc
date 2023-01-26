@@ -5,3 +5,5 @@ In this project i've built a web app that generate a random number starting from
 <br>
 Visit us 
 https://guessing-number-game-fc.onrender.com/
+<br>
+https://felizardocaculo.github.io/guessing-number-game-fc/
